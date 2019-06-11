@@ -1,0 +1,16 @@
+﻿Build started 2018-01-03 14:41:07.
+     1>Project "D:\studia\Stopień 2 Semestr 2\Fizyka i silniki fizyczne w animacji\Projekt\Pool\Pool.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\Dev\freeglut\include /ID:\Dev\PhysX_3.2.5\Include /Zi /nologo /W1 /WX- /O2 /D NDEBUG /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Pool.cpp stdafx.cpp
+         Pool.cpp
+         stdafx.cpp
+         Generating Code...
+       Link:
+         D:\Pliki programów (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\studia\Stopień 2 Semestr 2\Fizyka i silniki fizyczne w animacji\Projekt\Pool\x64\Debug\Pool.exe" /NOLOGO /LIBPATH:D:\Dev\freeglut\lib\x64 /LIBPATH:D:\Dev\PhysX_3.2.5\Lib\win64 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\studia\Stopień 2 Semestr 2\Fizyka i silniki fizyczne w animacji\Projekt\Pool\x64\Debug\Pool.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\studia\Stopień 2 Semestr 2\Fizyka i silniki fizyczne w animacji\Projekt\Pool\x64\Debug\Pool.lib" /MACHINE:X64 x64\Debug\Pool.obj
+         x64\Debug\stdafx.obj
+         Pool.vcxproj -> D:\studia\Stopień 2 Semestr 2\Fizyka i silniki fizyczne w animacji\Projekt\Pool\x64\Debug\Pool.exe
+     1>Done Building Project "D:\studia\Stopień 2 Semestr 2\Fizyka i silniki fizyczne w animacji\Projekt\Pool\Pool.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10

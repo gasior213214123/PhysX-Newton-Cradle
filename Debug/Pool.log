@@ -1,0 +1,25 @@
+﻿Build started 21.02.2018 12:13:09.
+     1>Project "C:\Users\Szcze\Desktop\BASIA\projekt\Newton\Pool.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Particles.vcxproj, Pool.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\Glew and Glut\freeglut\include" /I"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\Glew and Glut\glew-1.11.0\include" /I"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\glut-3.7.6-bin\glut-3.7.6-bin" /I"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\physx\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Newton.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Newton.cpp
+         Newton.cpp
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(32): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(144): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(221): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(245): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(246): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(247): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(248): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(255): warning C4305: 'argument' : truncation from 'double' to 'physx::PxReal'
+     1>c:\users\szcze\desktop\basia\projekt\newton\newton.cpp(308): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Szcze\Desktop\BASIA\projekt\Newton\Debug\Newton.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\Glew and Glut\freeglut\lib" /LIBPATH:"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\Glew and Glut\glew-1.11.0\lib" /LIBPATH:"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\glut-3.7.6-bin\glut-3.7.6-bin" /LIBPATH:"C:\Users\Szcze\OneDrive\Dokumenty\Visual Studio 2013\physx\Lib\win32" glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Szcze\Desktop\BASIA\projekt\Newton\Debug\Newton.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Szcze\Desktop\BASIA\projekt\Newton\Debug\Newton.lib" /MACHINE:X86 Debug\Newton.obj
+         Debug\stdafx.obj
+         Pool.vcxproj -> C:\Users\Szcze\Desktop\BASIA\projekt\Newton\Debug\Newton.exe
+     1>Done Building Project "C:\Users\Szcze\Desktop\BASIA\projekt\Newton\Pool.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.26
